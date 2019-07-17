@@ -1,0 +1,30 @@
+{
+  "name": "universal-calculator",
+  "version": "0.4.2",
+  "description": "CLI calculator with the answer to life, the universe, and everything",
+  "main": "universal-calculator.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec",
+    "watch": "istanbul cover _mocha -- -R spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelsevla/universal-calculator.git"
+  },
+  "author": "Rafael Costa <rafaelsevla@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelsevla/universal-calculator/issues"
+  },
+  "homepage": "https://github.com/rafaelsevla/universal-calculator#readme",
+  "preferGlobal": true,
+  "bin": {
+    "universal-calculator": "universal-calculator.js"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}
