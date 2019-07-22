@@ -1,6 +1,6 @@
 {
   "name": "universal-calculator",
-  "version": "4.2",
+  "version": "4.2.0",
   "description": "CLI calculator with the answer to life, the universe, and everything",
   "main": "universal-calculator.js",
   "scripts": {
